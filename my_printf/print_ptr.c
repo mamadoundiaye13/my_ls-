@@ -1,12 +1,3 @@
-/*
-** print_ptr.c for my_printf in /home/chapui_s/travaux/my_printf/new
-**
-** Made by chapui_s
-** Login   <chapui_s@epitech.net>
-**
-** Started on  Sat Nov 16 20:06:21 2013 chapui_s
-** Last update Sat Nov 30 12:31:54 2013 chapui_s
-*/
 
 #include "my_printf.h"
 #include <stddef.h>

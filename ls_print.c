@@ -1,12 +1,3 @@
-/*
-** ls_print.c for my_ls in /home/chapui_s/travaux/my_ls
-**
-** Made by chapui_s
-** Login   <chapui_s@epitech.net>
-**
-** Started on  Sat Nov 30 22:35:13 2013 chapui_s
-** Last update Sun Dec  1 22:17:37 2013 chapui_s
-*/
 
 #include <pwd.h>
 #include <grp.h>

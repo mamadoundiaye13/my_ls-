@@ -1,13 +1,3 @@
-/*
-** my_printf.h for my_printf in /home/chapui_s/travaux/my_printf
-**
-** Made by chapui_s
-** Login   <chapui_s@epitech.net>
-**
-** Started on  Wed Nov 13 18:30:52 2013 chapui_s
-** Last update Sat Nov 30 12:30:27 2013 chapui_s
-*/
-
 #ifndef MY_PRINTF_H_
 # define MY_PRINTF_H_
 

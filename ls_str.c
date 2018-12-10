@@ -1,12 +1,3 @@
-/*
-** ls_str.c for my_ls in /home/chapui_s/travaux/my_ls
-**
-** Made by chapui_s
-** Login   <chapui_s@epitech.net>
-**
-** Started on  Sat Nov 30 23:44:29 2013 chapui_s
-** Last update Sun Dec  1 22:18:02 2013 chapui_s
-*/
 
 char	to_lower(char c)
 {

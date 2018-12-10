@@ -1,13 +1,3 @@
-/*
-** ls_files.c for my_ls in /home/chapui_s/travaux/my_ls
-**
-** Made by chapui_s
-** Login   <chapui_s@epitech.net>
-**
-** Started on  Sat Nov 30 22:46:51 2013 chapui_s
-** Last update Sun Dec  1 22:14:44 2013 chapui_s
-*/
-
 #include <pwd.h>
 #include <grp.h>
 #include <sys/types.h>

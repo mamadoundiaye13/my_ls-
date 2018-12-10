@@ -1,12 +1,3 @@
-##
-## Makefile for my_ls in /home/chapui_s/rendu/PSU_2013_my_ls
-## 
-## Made by chapui_s
-## Login   <chapui_s@epitech.net>
-## 
-## Started on  Sun Dec  1 00:21:42 2013 chapui_s
-## Last update Sun Dec  1 14:31:01 2013 chapui_s
-##
 
 SRC	= main.c \
 	  ls_arg.c \

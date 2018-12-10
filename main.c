@@ -1,12 +1,3 @@
-/*
-** main.c for my_ls in /home/chapui_s/travaux/my_ls
-**
-** Made by chapui_s
-** Login   <chapui_s@epitech.net>
-**
-** Started on  Mon Nov 25 18:42:14 2013 chapui_s
-** Last update Sun Dec  1 22:18:39 2013 chapui_s
-*/
 
 #include <stdlib.h>
 #include "my_ls.h"

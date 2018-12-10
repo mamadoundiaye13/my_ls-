@@ -1,13 +1,3 @@
-/*
-** init_struc.c for my_printf in /home/chapui_s/travaux/my_printf/new
-**
-** Made by chapui_s
-** Login   <chapui_s@epitech.net>
-**
-** Started on  Sun Nov 17 00:30:20 2013 chapui_s
-** Last update Sat Nov 30 12:29:59 2013 chapui_s
-*/
-
 #include "my_printf.h"
 #include <stdarg.h>
 
@@ -56,6 +46,7 @@ int	init_flags_width_prec(t_params *params,
     params->precision = my_atoi(str + i + 1);
   return (i);
 }
+
 
 int	init_length(t_params *params, const char *str, unsigned int i)
 {

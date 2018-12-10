@@ -1,13 +1,3 @@
-/*
-** ls_dir.c for my_ls in /home/chapui_s/travaux/my_ls
-**
-** Made by chapui_s
-** Login   <chapui_s@epitech.net>
-**
-** Started on  Sat Nov 30 22:56:49 2013 chapui_s
-** Last update Sun Dec  1 22:13:19 2013 chapui_s
-*/
-
 #include <sys/types.h>
 #include <dirent.h>
 #include "my_ls.h"

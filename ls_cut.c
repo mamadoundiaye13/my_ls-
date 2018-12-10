@@ -1,13 +1,3 @@
-/*
-** ls_cut.c for my_ls in /home/chapui_s/travaux/my_ls
-**
-** Made by chapui_s
-** Login   <chapui_s@epitech.net>
-**
-** Started on  Sat Nov 30 23:05:21 2013 chapui_s
-** Last update Sun Dec  1 22:12:23 2013 chapui_s
-*/
-
 #include "my_ls.h"
 
 char		*cut_time(time_t *time_arg)

@@ -1,13 +1,3 @@
-/*
-** stock_args.c for my_printf in /home/chapui_s/travaux/my_printf/new
-**
-** Made by chapui_s
-** Login   <chapui_s@epitech.net>
-**
-** Started on  Sun Nov 17 00:35:25 2013 chapui_s
-** Last update Sat Nov 30 12:32:27 2013 chapui_s
-*/
-
 #include "my_printf.h"
 #include <stdarg.h>
 #include <stddef.h>

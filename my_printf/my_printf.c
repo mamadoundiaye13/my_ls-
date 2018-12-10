@@ -1,13 +1,3 @@
-/*
-** test.c for printf in /home/chapui_s/travaux/my_printf
-**
-** Made by chapui_s
-** Login   <chapui_s@epitech.net>
-**
-** Started on  Mon Nov 11 21:32:07 2013 chapui_s
-** Last update Sat Nov 30 12:30:18 2013 chapui_s
-*/
-
 #include <stdarg.h>
 #include <stdlib.h>
 #include "my_printf.h"
@@ -32,6 +22,8 @@ unsigned int	find_good_param(t_params *params, va_list *arg_tmp,
   return (i);
 }
 
+
+//taille du printf
 unsigned int	calc_size_to_print(t_tmp_arg *tmp, char c)
 {
   if (c == 'd' || c == 'i')

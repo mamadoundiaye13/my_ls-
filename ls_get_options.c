@@ -1,12 +1,3 @@
-/*
-** ls_get_options.c for my_ls in /home/chapui_s/travaux/my_ls
-**
-** Made by chapui_s
-** Login   <chapui_s@epitech.net>
-**
-** Started on  Mon Nov 25 21:17:23 2013 chapui_s
-** Last update Sun Dec  1 15:09:49 2013 chapui_s
-*/
 
 #include <stdlib.h>
 #include "my_ls.h"

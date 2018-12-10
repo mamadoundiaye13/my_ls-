@@ -1,13 +1,3 @@
-/*
-** calc_size.c for my_printf in /home/chapui_s/travaux/my_printf
-**
-** Made by chapui_s
-** Login   <chapui_s@epitech.net>
-**
-** Started on  Thu Nov 14 13:30:17 2013 chapui_s
-** Last update Sat Nov 30 12:29:39 2013 chapui_s
-*/
-
 unsigned int	calc_int(long long nb)
 {
   unsigned int	size;

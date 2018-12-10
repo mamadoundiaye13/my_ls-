@@ -1,13 +1,3 @@
-/*
-** print_octal.c for my_printf in /home/chapui_s/travaux/my_printf/new
-**
-** Made by chapui_s
-** Login   <chapui_s@epitech.net>
-**
-** Started on  Sat Nov 16 17:26:45 2013 chapui_s
-** Last update Sat Nov 30 12:31:45 2013 chapui_s
-*/
-
 #include "my_printf.h"
 
 void	finish_octal(t_tmp_arg *tmp, t_params *params,

@@ -1,12 +1,3 @@
-/*
-** ls_list_alpha.c for my_ls in /home/chapui_s/travaux/my_ls
-**
-** Made by chapui_s
-** Login   <chapui_s@epitech.net>
-**
-** Started on  Sat Nov 30 23:46:40 2013 chapui_s
-** Last update Sat Nov 30 23:49:13 2013 chapui_s
-*/
 
 #include <stdlib.h>
 #include "my_ls.h"

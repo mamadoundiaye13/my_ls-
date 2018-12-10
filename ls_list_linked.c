@@ -1,13 +1,3 @@
-/*
-** ls_list_linked.c for my_ls in /home/chapui_s/travaux/my_ls
-**
-** Made by chapui_s
-** Login   <chapui_s@epitech.net>
-**
-** Started on  Mon Nov 25 21:22:34 2013 chapui_s
-** Last update Sat Nov 30 23:54:28 2013 chapui_s
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>

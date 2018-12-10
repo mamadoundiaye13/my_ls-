@@ -1,13 +1,3 @@
-/*
-** utils.c for my_printf in /home/chapui_s/travaux/my_printf
-**
-** Made by chapui_s
-** Login   <chapui_s@epitech.net>
-**
-** Started on  Thu Nov 14 16:34:06 2013 chapui_s
-** Last update Sat Nov 30 12:32:37 2013 chapui_s
-*/
-
 #include "my_printf.h"
 #include <unistd.h>
 

@@ -1,13 +1,3 @@
-/*
-** print_binary.c for my_printf in /home/chapui_s/travaux/my_printf/new
-**
-** Made by chapui_s
-** Login   <chapui_s@epitech.net>
-**
-** Started on  Sat Nov 16 22:47:10 2013 chapui_s
-** Last update Sat Nov 30 12:30:48 2013 chapui_s
-*/
-
 #include "my_printf.h"
 
 unsigned int	print_binary(t_tmp_arg *tmp, t_params *params,

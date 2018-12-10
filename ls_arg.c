@@ -1,13 +1,3 @@
-/*
-** ls_arg.c for my_ls in /home/chapui_s/travaux/my_ls
-**
-** Made by chapui_s
-** Login   <chapui_s@epitech.net>
-**
-** Started on  Sat Nov 30 23:08:48 2013 chapui_s
-** Last update Sat Nov 30 23:11:13 2013 chapui_s
-*/
-
 #include "my_ls.h"
 
 int		recurs_ls(t_options *options, char *dir_name,
