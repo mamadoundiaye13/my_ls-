@@ -1,4 +1,11 @@
+/*
+** ETNA PROJECT, 10/12/2018 by ndiaye_b@etna-alternance.fr
+** my_ls
+** File description:
+**      Ce fichier comporte les qui verifient certaines conditions comme verifier les dernier caractere
+*/
 
+//number parameter
 int		is_parameter_number(const char *str)
 {
   unsigned int	i;
@@ -13,6 +20,7 @@ int		is_parameter_number(const char *str)
   return (0);
 }
 
+//dernier caractere
 unsigned int	check_last_char(const char *str, unsigned int i)
 {
   if (str[i] == 'h' || str[i] == 'l' || str[i] == 'z'
@@ -29,6 +37,7 @@ unsigned int	check_last_char(const char *str, unsigned int i)
     return (i);
   return (0);
 }
+
 
 unsigned int	is_to_convert(const char *str)
 {

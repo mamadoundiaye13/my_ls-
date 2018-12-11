@@ -1,3 +1,11 @@
+/*
+** ETNA PROJECT, 10/12/2018 by ndiaye_b@etna-alternance.fr
+** my_ls
+** File description:
+**      fonction qui calcule les tailles
+*/
+
+
 unsigned int	calc_int(long long nb)
 {
   unsigned int	size;

@@ -1,3 +1,10 @@
+/*
+** ETNA PROJECT, 11/12/2018 by ndiaye_b@etna-alternance.net
+** my_ls
+** File description:
+**      le header de my_ls.c
+*/
+
 
 #ifndef MY_LS_H_
 # define MY_LS_H_
@@ -15,6 +22,9 @@ typedef struct	s_options
   int		t;
   int		g;
   int		F;
+  int   a;
+  int   A;
+  int   L;
 }		t_options;
 
 typedef struct		s_infos_file

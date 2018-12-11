@@ -1,3 +1,10 @@
+/*
+** ETNA PROJECT, 11/12/2018 by ndiaye_b@etna-alternance.net
+** my_ls
+** File description:
+**      mes fonctions utiles (de depannage ) pour le projet my_ls
+*/
+
 
 #include <stdlib.h>
 #include <unistd.h>

@@ -1,3 +1,10 @@
+/*
+** ETNA PROJECT, 11/12/2018 by ndiaye_b@etna-alternance.net
+** my_ls
+** File description:
+**      fonctions pour les listes chainées des fichiers
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>

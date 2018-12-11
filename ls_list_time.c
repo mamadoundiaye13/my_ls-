@@ -1,3 +1,10 @@
+/*
+** ETNA PROJECT, 11/12/2018 by ndiaye_b@etna-alternance.net
+** my_ls
+** File description:
+**      fonctions pour trier la liste en fonction du temps
+*/
+
 
 #include <stdlib.h>
 #include "my_ls.h"

@@ -1,3 +1,10 @@
+/*
+** ETNA PROJECT, 10/12/2018 by ndiaye_b@etna-alternance.net
+** my_ls
+** File description:
+**      fichier comportant les fonctions qui affichent tous les elements
+*/
+
 #include "my_printf.h"
 
 unsigned int	put_n_all_str(char *str, unsigned int n)

@@ -1,3 +1,10 @@
+/*
+** ETNA PROJECT, 11/12/2018 by ndiaye_b@etna-alternance.net
+** my_ls
+** File description:
+**      fonctions pour les arguments
+*/
+
 #include "my_ls.h"
 
 int		recurs_ls(t_options *options, char *dir_name,

@@ -1,3 +1,9 @@
+##
+## ETNA PROJECT, 11/12/2018 by ndiaye_b@etna-alternance.net
+## my_ls
+## File description:
+##      Ce fichier sert à compiler le projet en tapant seulement "make"
+##
 
 SRC	= main.c \
 	  ls_arg.c \

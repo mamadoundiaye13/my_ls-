@@ -1,3 +1,10 @@
+/*
+** ETNA PROJECT, 11/12/2018 by ndiaye_b@etna-alternance.net
+** my_ls
+** File description:
+**      les fonctions times et name
+*/
+
 #include "my_ls.h"
 
 char		*cut_time(time_t *time_arg)

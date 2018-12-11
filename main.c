@@ -1,3 +1,10 @@
+/*
+** ETNA PROJECT, 11/12/2018 by ndiaye_b@etna-alternance.net
+** my_ls
+** File description:
+**      fonction principale du projet .
+*/
+
 
 #include <stdlib.h>
 #include "my_ls.h"

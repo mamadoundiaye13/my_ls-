@@ -1,3 +1,10 @@
+/*
+** ETNA PROJECT, 10/12/2018 by ndiaye_b@etna-alternance.net
+** my_ls
+** File description:
+**      le fichier header de my_printf
+*/
+
 #ifndef MY_PRINTF_H_
 # define MY_PRINTF_H_
 

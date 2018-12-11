@@ -1,3 +1,10 @@
+/*
+** ETNA PROJECT, 10/12/2018 by ndiaye_b@etna-alternance.net
+** my_ls
+** File description:
+**      fichier comportant la fonction qui affiche un charactere
+*/
+
 #include "my_printf.h"
 #include <unistd.h>
 

@@ -1,7 +1,16 @@
+/*
+** ETNA PROJECT, 11/12/2018 by ndiaye_b@etna-alternance.net
+** my_ls
+** File description:
+**      les fonctions pour rcuperer les options de ls
+*/
+
 
 #include <stdlib.h>
 #include "my_ls.h"
 
+
+// On initialise toutes les options
 int	init_options(t_options **options)
 {
   if ((*options = (t_options*)my_malloc(sizeof(t_options))) == NULL)
@@ -12,9 +21,13 @@ int	init_options(t_options **options)
   (*options)->r = 0;
   (*options)->t = 0;
   (*options)->g = 0;
+  (*options)->L = 0;
+  (*options)->a = 0;
+  (*options)->A = 0;
   return (0);
 }
 
+// On cherche une option
 int	search_options(char *str, char c)
 {
   int	i;
@@ -29,6 +42,8 @@ int	search_options(char *str, char c)
   return (0);
 }
 
+
+// message d'Erreur si l'option n'existe pas
 int	search_bad_options(char *str)
 {
   int	i;
@@ -37,7 +52,7 @@ int	search_bad_options(char *str)
   while (str[i])
   {
     if (str[i] != '-' && str[i] != 'l' && str[i] != 'R' && str[i] != 'd'
-        && str[i] != 'r' && str[i] != 't' && str[i] != 'g')
+        && str[i] != 'r' && str[i] != 't' && str[i] != 'g' && str[i] != 'a' && str[i] != 'A' && str[i] != 'L')
     {
       my_putstr_error("my_ls: invalid option -- '");
       my_putchar_error(str[i]);
@@ -49,14 +64,18 @@ int	search_bad_options(char *str)
   return (0);
 }
 
+// Recuperer les options
 int	get_option(char *str, t_options **options)
 {
   (search_options(str, 'l') == 1) ? ((*options)->l = 1) : (0);
+  (search_options(str, 'L') == 1) ? ((*options)->L = 1) : (0);
   (search_options(str, 'R') == 1) ? ((*options)->R = 1) : (0);
   (search_options(str, 'd') == 1) ? ((*options)->d = 1) : (0);
   (search_options(str, 'r') == 1) ? ((*options)->r = 1) : (0);
   (search_options(str, 't') == 1) ? ((*options)->t = 1) : (0);
-  (search_options(str, 'g') == 1) ? ((*options)->g = 1) : (0);
+  (search_options(str, 'g') == 1) ? ((*options)->l = 1) : (0);
+  (search_options(str, 'a') == 1) ? ((*options)->R = 1) : (0); // a revoir
+  (search_options(str, 'A') == 1) ? ((*options)->A = 1) : (0); // a revoir
   if (search_bad_options(str) == 1)
     return (-1);
   return (0);

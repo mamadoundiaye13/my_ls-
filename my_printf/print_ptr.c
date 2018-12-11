@@ -1,3 +1,10 @@
+/*
+** ETNA PROJECT, 10/12/2018 by ndiaye_b@etna-alternance.net
+** my_ls
+** File description:
+**      fonction qui affiche ptr
+*/
+
 
 #include "my_printf.h"
 #include <stddef.h>

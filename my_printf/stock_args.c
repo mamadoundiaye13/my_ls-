@@ -1,3 +1,10 @@
+/*
+** ETNA PROJECT, 10/12/2018 by ndiaye_b@etna-alternance.fr
+** my_ls
+** File description:
+**      fonction pour stocker des arguments
+*/
+
 #include "my_printf.h"
 #include <stdarg.h>
 #include <stddef.h>

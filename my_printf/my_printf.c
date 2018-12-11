@@ -1,6 +1,16 @@
+/*
+** ETNA PROJECT, 10/12/2018 by ndiaye_b@etna-alternance.net
+** my_ls
+** File description:
+**      fichier qui gere les affichages du projet
+*/
+
+
 #include <stdarg.h>
 #include <stdlib.h>
 #include "my_printf.h"
+
+
 
 unsigned int	find_good_param(t_params *params, va_list *arg_tmp,
 				const char *str, unsigned int i)
