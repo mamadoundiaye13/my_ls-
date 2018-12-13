@@ -52,7 +52,7 @@ int	search_bad_options(char *str)
   while (str[i])
   {
     if (str[i] != '-' && str[i] != 'l' && str[i] != 'R' && str[i] != 'd'
-        && str[i] != 'r' && str[i] != 't' && str[i] != 'g' && str[i] != 'a' && str[i] != 'A' && str[i] != 'L')
+        && str[i] != 'r' && str[i] != 't' && str[i] != 'g' && str[i] != 'a' && str[i] != 'A' && str[i] != 'L' && str[i] != 'D')
     {
       my_putstr_error("my_ls: invalid option -- '");
       my_putchar_error(str[i]);
@@ -73,9 +73,9 @@ int	get_option(char *str, t_options **options)
   (search_options(str, 'd') == 1) ? ((*options)->d = 1) : (0);
   (search_options(str, 'r') == 1) ? ((*options)->r = 1) : (0);
   (search_options(str, 't') == 1) ? ((*options)->t = 1) : (0);
-  (search_options(str, 'g') == 1) ? ((*options)->l = 1) : (0);
-  (search_options(str, 'a') == 1) ? ((*options)->R = 1) : (0); // a revoir
-  (search_options(str, 'A') == 1) ? ((*options)->A = 1) : (0); // a revoir
+  (search_options(str, 'g') == 1) ? ((*options)->l = 1) : (0); // Option bonus -g 
+  (search_options(str, 'a') == 1) ? ((*options)->R = 1) : (0);
+  (search_options(str, 'A') == 1) ? ((*options)->A = 1) : (0);
   if (search_bad_options(str) == 1)
     return (-1);
   return (0);

@@ -13,6 +13,7 @@
 #include <sys/stat.h>
 #include <stddef.h>
 
+// toutes lesoptions du projet
 typedef struct	s_options
 {
   int		l;
@@ -25,6 +26,7 @@ typedef struct	s_options
   int   a;
   int   A;
   int   L;
+  int   D; 
 }		t_options;
 
 typedef struct		s_infos_file
