@@ -16,14 +16,14 @@ int	init_options(t_options **options)
   if ((*options = (t_options*)my_malloc(sizeof(t_options))) == NULL)
     return (1);
   (*options)->l = 0;
-  (*options)->R = 0;
-  (*options)->d = 0;
-  (*options)->r = 0;
-  (*options)->t = 0;
-  (*options)->g = 0;
   (*options)->L = 0;
+  (*options)->r = 0;
+  (*options)->R = 0;
   (*options)->a = 0;
   (*options)->A = 0;
+  (*options)->d = 0;
+  (*options)->t = 0;
+  (*options)->g = 0;
   return (0);
 }
 
